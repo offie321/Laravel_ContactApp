@@ -15,6 +15,10 @@
 
     <!-- Styles -->
     <style>
+        *{
+            overflow-x: hidden !important;
+        }
+
         html, body {
             background-color: #414141;
             color: #313131;
@@ -46,6 +50,8 @@
 
         .content {
             text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
         }
 
         .title {

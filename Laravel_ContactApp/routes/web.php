@@ -15,16 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/add', function () {
-    return view('add');
-});
-
-Route::get('/remove', function () {
-    return view('remove');
-});
-
-Route::get('/update', function () {
-    return view('update');
-});
+Route::resource('persons', 'PersonController');
 
 
