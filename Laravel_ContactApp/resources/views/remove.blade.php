@@ -1,12 +1,8 @@
 @extends('layout.layout')
 
-<style>
-
-</style>
-
 @section('content')
     <div class="title m-b-md">
-        Content
+        Remove
     </div>
 
 
